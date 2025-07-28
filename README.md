@@ -92,10 +92,9 @@ This README serves as a complete reference for common Docker and Docker Compose 
 | `docker container prune`         | Remove all stopped containers                    |
 | `docker image prune`             | Remove unused Docker images                      |
 | `docker volume prune`            | Remove unused volumes                            |
-| `docker stop $(docker ps -q)`            | Stop all containers                          |
-
-| `docker rmi $(docker images -q)`            | Remove all images                           |
-| `docker rm $(docker ps -aq)`            | Remove all containers                           |
+| `docker stop $(docker ps -q)`    | Stop all containers                              |
+| `docker rmi $(docker images -q)` | Remove all images                                |
+| `docker rm $(docker ps -aq)`     | Remove all containers                            |
 
 ---
 
